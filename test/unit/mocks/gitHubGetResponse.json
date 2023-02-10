@@ -1,0 +1,24 @@
+{
+    "total_count": 2,
+    "incomplete_results": true,
+    "items": [
+        {
+            "id": 111,
+            "full_name": "test/tester",
+            "language": "JavaScript",
+            "stargazers_count": 2400,
+            "description": "test repo 1",
+            "html_url": "https://github.com/test/tester",
+            "created_at": "2020-01-31T18:31:32Z"
+        },
+        {
+            "id": 222,
+            "full_name": "test2/tester2",
+            "language": "JavaScript",
+            "stargazers_count": 1000,
+            "description": "test repo 2",
+            "html_url": "https://github.com/test2/tester2",
+            "created_at": "2025-05-28T11:55:12Z"
+        }
+    ]
+}
