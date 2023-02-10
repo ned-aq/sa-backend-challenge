@@ -16,19 +16,25 @@ backend application for discovering popular repositories on GitHub
 Docker:
 
 ```bash
-1. `docker build -t sa-backend-challenge:1.0.0 . && docker run -d -p 127.0.0.1:8000:8000 --name sa-backend-challenge sa-backend-challenge:1.0.0`
+docker build -t sa-backend-challenge:1.0.0 . && docker run -d -p 127.0.0.1:8000:8000 --name sa-backend-challenge sa-backend-challenge:1.0.0
 ```
 
 ### Linting
 
 ```bash
-1. `npm run lint`
+npm run lint
 ```
 
 ### Testing
 
 ```bash
-1. `npm run test` OR `npm run coverage`
+npm run test
+```
+
+OR
+
+```bash
+npm run coverage
 ```
 
 Controllers are in `src/controllers`.
